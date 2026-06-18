@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>1133859 劉佳鑫 個人網頁</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人網站</title>
+</head>
+<body>
+    <header>
+        <img src="https://i.pinimg.com/originals/c6/6c/66/c66c66b2f2ed5629481fe8992cb44d3b.jpg" alt="我的照片">
+        <h1>歡迎來到我的網站</h1>
+        <p>這是我的個人網站，展示我的興趣與作品。</p>
+    </header>
+    
+    <nav>
+        <a href="#about" class="sound-btn" data-type="click">關於我</a>
+        <a href="#portfolio" class="sound-btn" data-type="click">我的作品</a>
+        <a href="#game-section" class="sound-btn" data-type="click">小遊戲</a>
+        <a href="#projects" class="sound-btn" data-type="click">我的最愛</a>
+        <a href="#contact" class="sound-btn" data-type="success">聯絡我</a>
+    </nav>
+  
+    <main>
+        <section id="about">
+            <h2>關於我</h2>
+            <p>您好！我是劉佳鑫，目前就讀於國立嘉義大學數位學習設計與管理學系。熱愛經典電影與街頭攝影，同時也是個喜歡沉浸在策略思考中的桌遊玩家，以及熱衷於各類遊戲世界的電玩愛好者。</p>
+            
+            <div class="tag-container">
+                <span class="tag">🎓 數位學習設計與管理</span>
+                <span class="tag">🎬 電影愛好者</span>
+                <span class="tag">🎲 桌遊玩家</span>
+                <span class="tag">🎮 電玩狂熱者</span>
+            </div>
+        </section>
+        
+        <section id="portfolio">
+            <h2>我的作品</h2>
+            <p>《未寄出的那一封信》— 參賽第17屆感動久久影音大賽作品。</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/yaCzaCBB9Z0" title="未寄出的那一封信-《第17屆感動久久》" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="game-section">
+            <h2>益智小遊戲 (2048)</h2>
+            <p>點擊下方區域，使用鍵盤的 <b>↑ ↓ ← → 方向鍵</b> 來滑動並合併數字吧！</p>
+            <div class="game-container-2048">
+                <div class="game-header">
+                    <div class="score-container">目前分數: <span id="game-score">0</span></div>
+                    <button id="restart-game-btn">重新開始</button>
+                </div>
+                <div class="game-grid-2048" id="grid-container">
+                    </div>
+            </div>
+        </section>
+      
+        <section id="projects">
+            <h2>我的最愛</h2>
+            <p>這裡展示了一些我百看不厭的經典電影：</p>
+            
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="https://meet.eslite.com/CMS/Files/@M091/2021-08/fliper_august/fight-club/3.jpg" alt="鬥陣俱樂部">
+                </div>
+                <div class="movie-card">
+                    <img src="https://www.miranewcinemas.com/miramarimaxauro/db/upload/movieAlbum/201409180110166.jpg" alt="星際效應">
+                </div>
+                <div class="movie-card">
+                    <img src="https://pic.pimg.tw/felix0621/1326025122-3609052928_n.jpg" alt="大敵當前">
+                </div>
+            </div>
+        </section>
+      
+        <section id="contact">
+            <h2>聯絡我</h2>
+            <p>歡迎來到我的守備範圍，透過以下方式可以找到我：</p>
+            <div class="contact-links">
+                <div class="contact-btn">✉️ Email: peter9487696@gmail.com</div>
+                <div class="contact-btn">📸 Instagram: wowsocool_0124</div>
+            </div>
+        </section>
+    </main>
+  
+    <footer>
+       <p>&copy; <span id="year"></span> 劉佳鑫. 版權所有。</p>
+    </footer>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
